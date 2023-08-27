@@ -15,7 +15,7 @@ This project involves analyzing hotel booking data to optimize pricing strategie
   - [Logistic Regression for City Hotels](#logistic-regression-for-city-hotels)
   - [Logistic Regression for Resort Hotels](#logistic-regression-for-resort-hotels)
 - [Results and Insights](#results-and-insights)
-- [Usage](#usage)
+
 
 ## Data Source
 
@@ -50,11 +50,6 @@ Dataset Link: [Hotel Booking Demand Dataset](https://www.kaggle.com/jessemostipa
 - Logistic regression models achieved an accuracy of X% for city hotels and Y% for resort hotels.
 - Insights include recommendations for pricing and promotional strategies for both hotel types.
 
-## Usage
-
-To replicate the analysis:
-1. Clone this repository: `git clone https://github.com/your-username/hotel-booking-analysis.git`
-`
 
 ## Contributing
 
