@@ -1,21 +1,26 @@
 # Hotel Booking Data Analysis
+Average daily rate
+![time_series_ADR](images/time_series_ADR.jpg)
 
-![Hotel](hotel_image.jpg)
+Bar plot of cancellatons
+![hotel_cancels](images/hotel_cancels.jpg)
 
 ## Project Overview
 
-This project involves analyzing hotel booking data to optimize pricing strategies and reduce cancellations. By identifying key variables affecting reservation cancellations, actionable insights are suggested that could lead to more efficient pricing and promotional decisions. Notably, logistic regression models were developed separately for both city hotels and resort hotels to enhance prediction accuracy.
+This project involves analyzing hotel booking data to optimize pricing strategies and reduce cancellations. By identifying key variables affecting reservation cancellations, actionable insights are suggested that could lead to more efficient pricing and promotional decisions. Notably, logistic regression models and a Random Forest Classifier (RFC) were developed to enhance prediction accuracy.
 
 ## Table of Contents
 
 - [Data Source](#data-source)
 - [Data Preparation](#data-preparation)
 - [Exploratory Analysis](#exploratory-analysis)
+- [Feature Selection](#feature-selection)
 - [Predictive Modeling](#predictive-modeling)
-  - [Logistic Regression for City Hotels](#logistic-regression-for-city-hotels)
-  - [Logistic Regression for Resort Hotels](#logistic-regression-for-resort-hotels)
+  - [Random Forest Classifier](#random-forest-classifier)
+  - [Logistic Regression](#logistic-regression)
 - [Results and Insights](#results-and-insights)
-
+- [Conclusion and Future Steps](#conclusion-and-future-steps)
+- [Contributing](#contributing)
 
 ## Data Source
 
@@ -33,26 +38,33 @@ Dataset Link: [Hotel Booking Demand Dataset](https://www.kaggle.com/jessemostipa
 - Explored booking trends, seasonality, and customer demographics.
 - Analyzed the relationship between booking cancellations and different features.
 
+## Feature Selection
+
+- Utilized a correlation matrix to identify relevant categorical features.
+- Performed Ordinary Least Squares (OLS) Regression on numerical features to uncover correlations.
+
 ## Predictive Modeling
 
-### Logistic Regression for City Hotels
+### Random Forest Classifier
 
-- Developed a logistic regression model specific to city hotels.
-- Evaluated the model's performance using appropriate metrics.
+- Developed a Random Forest Classifier model for predicting cancellations.
+- Attempted hyperparameter tuning to improve accuracy.
+- Achieved an accuracy score of approximately 0.863 with cross-validation accuracy of 0.787.
 
-### Logistic Regression for Resort Hotels
+### Logistic Regression
 
-- Developed a logistic regression model specific to resort hotels.
-- Evaluated the model's performance using appropriate metrics.
+- Built logistic regression models for predicting cancellations.
+- Achieved an accuracy score of 0.776 with a cross-validation accuracy of 0.787.
 
 ## Results and Insights
 
-- Logistic regression models achieved an accuracy of X% for city hotels and Y% for resort hotels.
-- Insights include recommendations for pricing and promotional strategies for both hotel types.
+- The Random Forest Classifier demonstrated competitive performance with an accuracy score of approximately 0.863 and cross-validation accuracy of 0.787.
+- The Logistic Regression model achieved an accuracy score of 0.776 with  cross-validation accuracy of 0.754.
 
+## Conclusion and Future Steps
+
+In conclusion, this analysis sheds light on factors influencing hotel booking cancellations. While the Random Forest Classifier achieved promising results, further exploration of hyperparameter tuning and feature engineering may lead to improved accuracy. Future steps could also involve exploring ensemble methods and advanced techniques to further enhance model performance and interpretability.
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute, please open an issue or submit a pull request.
-
-
