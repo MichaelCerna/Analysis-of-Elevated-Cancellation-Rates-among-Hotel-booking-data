@@ -3,7 +3,7 @@ Average daily rate
 ![time_series_ADR](images/time_series_ADR.png)
 
 Bar plot of cancellatons
-![hotel_cancels](images/hotel_cancels.png)
+![hotels_cancels](images/hotels_cancels.png)
 
 ## Project Overview
 
