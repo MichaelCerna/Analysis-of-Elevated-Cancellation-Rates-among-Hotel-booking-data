@@ -1,9 +1,9 @@
 # Hotel Booking Data Analysis
 Average daily rate
-![time_series_ADR](images/time_series_ADR.jpg)
+![time_series_ADR](images/time_series_ADR.png)
 
 Bar plot of cancellatons
-![hotel_cancels](images/hotel_cancels.jpg)
+![hotel_cancels](images/hotel_cancels.png)
 
 ## Project Overview
 
