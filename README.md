@@ -54,7 +54,7 @@ Dataset Link: [Hotel Booking Demand Dataset](https://www.kaggle.com/jessemostipa
 ### Logistic Regression
 
 - Built logistic regression models for predicting cancellations.
-- Achieved an accuracy score of 0.776 with a cross-validation accuracy of 0.787.
+- Achieved an accuracy score of 0.796 with a cross-validation accuracy of 0.787.
 
 ## Results and Insights
 
